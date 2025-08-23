@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+
+<body>
+    <div class="parent">
+        <nav>
+      <div class="hamburger">☰</div>
+      <ul class="navlinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+        <div class="hero">
+            <h2>"Hi, I’m Abdullah 👋 — Web Developer | Problem Solver | Builder"</h2>
+        </div>
+
+        <div class="about">
+            <p>Hi everyone I am Abdullah Badar and I am a web devleoper and I am 17 years old and I am very passionate
+                about coding and web development.</p>
+
+            <h3>My Skills</h3>
+            <div class="skill">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Responsive Designs</p>
+            </div>
+            <p>I love building websites from scratch,I love DOM manipulation and etc.</p>
+        </div>
+
+        <h3 class="hee">My Projects</h3>
+        <div class="projects">
+            <a href="project38.html" target="_blank">Project 38</a>
+            <a href="project40.html" target="_blank">Project 40</a>
+            <a href="project45.html" target="_blank">Project 45</a>
+            <a href="project 36.html" target="_blank">Project 36</a>
+        </div>
+
+
+
+        <h3>My Work Gallery</h3>
+        <div class="gallery">
+            <div class="gallerycontainer">
+                <img src="{42A33C19-D70E-415E-9F3D-78A5F8DE3D8F}.png" alt="Project Screenshot 1">
+                <img src="{6FC16970-B094-4072-A2DF-E0FE68C0B261}.png" alt="Project Screenshot 2">
+                <img src="{7F9CE0CA-3A84-48EA-9D28-BE91265C7896}.png" alt="Project Screenshot 3">
+                <img src="{277EE000-3393-44A3-9445-0C8424EAC120}.png" alt="">
+
+            </div>
+        </div>
+
+        <footer>"© 2025 Abdullah | Made with ❤️"</footer>
+    </div>
+</body>
+
+    <script>
+  const hamburger = document.querySelector(".hamburger");
+  const navLinks = document.querySelector(".navlinks");
+
+  hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+
+
+</script>
+
+</html>
